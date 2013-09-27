@@ -1,1 +1,1 @@
-OpenAssets project - form to digitalize Assets Declaration from Members of Parlament
+OpenAssets project - form to digitalize Assets Declaration from Members of ParlamentFirst steps-----------Run mongodb instance    sudo service mongod startInitialize mongodb    mongoimport --db hackaton --collection documents --file mongo/init_import.jsonStart application    mvn jetty:run -f backend/openasset/pom.xmlOpen in browser    http://localhost:9090/openassets/
